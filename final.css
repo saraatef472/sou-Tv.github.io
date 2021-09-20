@@ -1,0 +1,545 @@
+ @media (min-width : 1024px){
+  .header{
+   
+    /* width:100%; */
+    /* height: 4%; */
+
+   }
+   .div1 {
+    height:60px;  
+  }
+  .div4{
+    width:500px;
+       height:300px;
+   top:10%;
+       left:30%;
+   }
+ 
+.img{
+  margin-top: -24px;
+    width:100%;
+    height:40%;
+  }
+  #glgl {
+  width: 140%;
+  height:270px;
+  }
+  .card{
+    width:40%;
+   height:80%;
+   }
+   .card>div{
+      height: 78%;
+    }
+    .card:hover >div{
+      width: 100%;
+      height: 55%;
+    }
+   .card:hover{
+     width: 50%;
+       height: 98%;
+    }
+
+    h3{
+      font-size: 18px;
+      }
+      h2{
+        font-size: 20px;
+        width:20%;
+        }
+
+        .logo{
+          width: 10%;
+          height: 35px;
+            /* width: 100px; */
+  /* height: 40px; */
+  margin-left: -30px;
+  margin-top: -14px;
+ 
+          }
+          .logoo{
+           width: 13%;
+
+          font-size: 28px;
+          }
+          .menu{
+            /* width: 200px; */
+            /* height: 120px; */
+             width: 380px; 
+height: 200px; 
+            }
+            .one{
+              width:100%;
+              font-size: 16px;
+              }
+              
+              th,td{
+                /* width:150px; */
+                /* height:30px; */
+                 width:250px;
+  height:50px;
+              }
+             
+                .search{
+                  width:26%;
+                }
+             a{
+               
+                font-size: 15px;
+                 padding: 1%; 
+               margin-left: 1%;
+               font-size: 20px;
+              }
+.tan{
+  height:10px;
+}
+.p{
+  font-size: 24px;
+  height: 52%;
+    width: 250px;;
+  
+}
+
+}
+
+
+/* tab */
+
+@media (min-width:426px) and (max-width:1023px){
+  .header{
+    background-color: blue;
+    width:100%;
+    height: 4%;
+
+   }
+   .div4{
+    width:200px;
+      height:300px; 
+       top:10%;
+      left:30%;
+  }
+ 
+.img{
+    width:100%;
+    height:20%;
+  }
+  #glgl {
+  width: 200%;
+  height:220px;
+  }
+  .card{
+    width:60%;
+   height:82%;
+   }
+   .card>div{
+      height: 60%;
+    }
+    .card:hover >div{
+      width: 100%;
+      height: 55%;
+    }
+   .card:hover{
+     width: 98%;
+       height: 98%;
+    }
+
+    h3{
+      font-size: 18px;
+      }
+      h2{
+        font-size: 18px;
+        width:25%;
+        }
+
+        .logo{
+          width: 12%;
+          height: 25px;
+          }
+          .logoo{
+           width: 13%;
+          /* height: 4%; */
+          font-size: 15px;
+          }
+          .menu{
+            width: 200px;
+            height: 120px;
+            }
+            .one{
+              width:100%;
+              font-size: 11px;
+              }
+              
+              th,td{
+                width:150px;
+                height:30px;
+              }
+              .search{
+                width:20%;
+              }
+              a{
+                margin-left: 2%;
+                font-size: 13px;
+              }
+.tan{
+  height:10px;
+}
+.p{
+  font-size: 24px;
+}
+
+
+} 
+
+/* mobile */
+
+@media (max-width: 426px) {
+  .div4{
+    width:200px;
+      height:300px; 
+       top:10%;
+      left:30%;
+  }
+  .header{
+    /* background-color: blue; */
+    width:100%;
+    height: 4%;
+
+   }
+   .div1 {
+    padding-bottom: 7.9%;  
+  }
+ 
+.img{
+    width:100%;
+    height:20%;
+  }
+  #glgl {
+  width: 350%;
+  height:225px;
+  }
+  .card{
+    width:90%;
+   height:75%;
+   }
+   .card>div{
+      height: 60%;
+    }
+    .card:hover >div{
+      width: 100%;
+      height: 55%;
+    }
+   .card:hover{
+     width: 98%;
+       height: 98%;
+    }
+
+    h3{
+      font-size: 18px;
+      }
+      h2{
+        font-size: 18px;
+        width:45%;
+        }
+
+        .logo{
+          width: 9%;
+          height: 20px;
+          }
+          .logoo{
+           width: 11%;
+          /* height: 4%; */
+          font-size: 12px;
+          }
+          .menu{
+            width: 200px;
+            height: 120px;
+            }
+            .one{
+              width:100%;
+              font-size: 11px;
+              }
+              
+              th,td{
+                width:150px;
+                height:30px;
+              }
+              .search{
+                width:15%;
+              }
+              a{
+                margin-left: 0.8%;
+                font-size: 11px;
+              }
+.tan{
+  height:10px;
+}
+.p{
+  font-size: 24px;
+}
+
+
+}
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color:rgb(14, 134, 134,0.85);
+}
+header{
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  float:inherit; 
+  top: 0;
+  width: 100%;
+  height: 6%;
+opacity: 0.6;
+}
+
+.menu{
+/* width: 380px;
+height: 200px; */
+background-color:rgb(14, 134, 134,0.3);
+color:white;
+margin-left:21%;
+display:inline-flex;
+position: relative;
+}
+.one{
+/* background-color: blueviolet; */
+/* width:100%; */
+position: absolute;
+/* font-size: 18px; */
+text-align: center;
+/* display: flex; */
+}
+.two{
+background-color: rgb(125, 110, 139);
+/* display: flex; */
+}
+th,td{
+  border:2px solid gray;
+  /* width:250px; */
+  /* height:50px; */
+}
+td:hover{
+  background-color:rgb(211, 58, 37);
+}
+
+.a{
+  display: inline-flex;
+}
+
+.logo{
+  /* width: 100px; */
+  /* height: 40px; */
+  /* margin-left: -30px; */
+  /* margin-top: -14px; */
+ 
+}
+.logoo{
+  color: black;
+  /* font-size: 28px; */
+  font-weight: bold;
+  background-color: white;
+  /* width: 100px; */
+  /* height: 40px; */
+}
+a{
+    /* padding: 1%; */
+    /* margin-left: 1%; */
+    /* font-size: 20px; */
+    cursor: pointer;
+}
+a:hover{
+
+  background-color:  rgba(144, 235, 247, 0.25);;
+}
+div {  
+    width: 100%;
+  }
+  .div1 {
+    z-index: 1;
+    /* height:140px; */
+ 
+  
+  }
+ 
+.img{
+    position: absolute;
+    z-index: -1;
+    /* width:100%; */
+    /* height:51%; */
+    top:24px;
+    bottom: 250px;
+    color:white
+    
+   
+  }
+  .p{
+    color: rgb(122, 78, 78,0);
+    /* font-size: 50px; */
+   text-align: center;
+      /* height: 52%;
+    width: 250px;;
+   */
+    position: absolute;
+  }
+ .sp{
+  font-size: 32px;
+  opacity: 0.5px;
+  line-height: 20px;
+  text-align: center;
+
+}
+  
+.p:hover{
+  color: rgb(218, 184, 252);
+    opacity: 1px;
+  }
+ .p:hover>.sp{
+  color: rgb(218, 184, 252);
+    opacity: 1px;
+  }
+.card{
+    margin: 0.25%;
+    /* width:25%; */
+    /* height:82%; */
+    border:none;
+    background-color: rgba(98, 216, 177, 0.514);
+ 
+ }
+ .card>div{
+   /* height: 88%; */
+ }
+ .card:hover >div{
+   /* height: 70%; */
+ }
+ img{
+   width: 100%;
+   height: 100%;
+ }
+  .card:hover{
+    /* width: 30%; */
+    /* height: 96%; */
+    border: 5px groove rgba(46, 45, 45, 0.614); 
+    box-shadow:3px  rgba(46, 45, 45, 0.614); 
+   
+  }
+.tan{
+  visibility: hidden;
+}
+.card:hover > .tan{
+  visibility: visible;
+
+}
+h3{
+  visibility: visible;
+  text-align: center;
+  /* font-size: 24px; */
+}
+
+ 
+ 
+ #srsrandsakr{
+   width: 100%;
+    overflow: auto;
+    margin-top: 12px;
+
+
+  }
+  ::-webkit-scrollbar {
+    width: 13px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(3, 83, 83); 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(77, 153, 216); 
+  }
+  h2{
+  
+    /* width:13%; */
+    text-align: center;
+    margin-left: 4px;
+    border: 4px groove rgba(46, 45, 45, 0.614); 
+    box-shadow:4px  rgba(46, 45, 45, 0.614); 
+    margin-bottom: 0px;
+    /* font-size: 24px; */
+  }
+
+  
+  #glgl {
+
+    /* width:130%; */
+      
+    display:inline-flex;
+    /* height:350px; */
+  }
+  .div4{
+    /* background-color: lightcoral; */
+    position:fixed;
+    /* width:200px;
+    height:300px; */
+    /* top:10%;
+    left:30%; */
+    opacity: .8;
+    display:none;
+}
+.bu{
+    position:relative;
+    width:42px;
+    height:28px;
+    /* margin:42% auto; */
+    left:91.5%;
+    
+    /* top:-210px; */
+    
+}
+.bu:hover{
+    color:white;
+    background-color: black;
+
+}
+.e33{
+  width:500px;
+  /* height:700px; */
+  /* top:-200px; */
+  /* left:30%; */
+  opacity: 0.8;
+}
+
+  /* .imgg{
+    width: 70px;
+    height: 30%; 
+
+  } 
+   .imgg:hover{
+width: 100px;
+height:45%;
+
+  }  */
+  .fa:hover {
+    font-size: 46px;
+color:rgb(15, 148, 148);
+    cursor: pointer;
+  }
+  .fa{
+    font-size: 40px;
+    /* color: rgba(20, 141, 141, 0.85); */
+    margin-left: 40px;
+    
+  }
+
+.footer{
+  background-color: rgb(123, 126, 126);
+  width:100%;
+  height:50px;
+}
+
